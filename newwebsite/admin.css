@@ -1,0 +1,105 @@
+h2{
+    background-color: #eb4040;
+    padding: 20px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    }
+    hr{
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid rgba(204, 204, 204, 0.877);
+    margin-bottom: 40px;
+    }
+    div.container{
+    width: 900px;
+    height: 610px;
+    margin:35px auto;
+    font-family: 'Raleway', sans-serif;
+    }
+    .full-page
+{
+    height: 120%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://t3.ftcdn.net/jpg/01/62/09/86/360_F_162098642_du41mhzwBLzj3QAIasRYFWjU5e10Avje.jpg');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+	div.main{
+    width: 300px;
+    padding: 10px 50px 25px;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    font-family: raleway;
+    float:left;
+    margin-top:50px;
+    }
+    input[type=text],input[type=username]{
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+        border: 2px solid rgb(192, 62, 62);
+        color: #4f4f4f;
+        font-size: 16px;
+        border-radius: 5px;
+        }
+        label1{
+            color:black;
+            text-shadow: 0 1px 0 rgb(161, 124, 124);
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 25;
+            }
+    input[type=text],input[type=password]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+    label{
+    color:black;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 25;
+    }
+    center{
+    font-size:32px;
+    }
+    .note{
+    color:red;
+    }
+    .valid{
+    color:green;
+    }
+    .back{
+    text-decoration: none;
+    border: 1px solid rgb(0, 143, 255);
+    background-color: rgb(0, 214, 255);
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: black;
+    }
+    input[type=button]{
+    font-size: 16px;
+    background: linear-gradient(#df2525 5%, #e42626 100%);
+    border: 1px solid #f02a2a;
+    color: #4E4D4B;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline:none;
+    }
+    input[type=button]:hover{
+    background: linear-gradient(#e62d2d 5%, #f31414 100%);
+    }
